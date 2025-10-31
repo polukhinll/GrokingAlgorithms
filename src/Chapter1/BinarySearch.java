@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class BinarySearch {
     public static void main(String[] args) {
+        System.out.println("test");
         List<Integer> list = List.of(1, 3, 5, 7, 9);
         int needItem = 3;
         System.out.println(binarySearch(list, needItem));
@@ -25,3 +26,4 @@ public class BinarySearch {
         return null; // если значение не найдено
     }
 }
+// скорость работы алгоритмы - O(log n)
